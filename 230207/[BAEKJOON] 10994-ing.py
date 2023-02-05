@@ -1,6 +1,8 @@
 # [BAEKJOON] 10994 별 찍기 - 19
 # https://ansohxxn.github.io/boj/10994/
 # https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kckyoung2&logNo=221040753895
+# https://m.blog.naver.com/repeater1384/222094535029
+
 
 
 # line이 홀수일 때와 짝수일 때의 규칙이 다름.
