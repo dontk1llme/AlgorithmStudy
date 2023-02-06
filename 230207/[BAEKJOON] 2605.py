@@ -17,5 +17,3 @@ for i in range(1,N+1):
 for k in range(N):
     print(newstd[k], end=' ')
 
-
-
