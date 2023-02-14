@@ -30,10 +30,7 @@ else:  # 홀수면 w에서 시작
 # y좌표
 if b % 2 == 0:  # 마찬가지로 짝수면 0에서 시작
     y = (q + t) % h
-else: # 홀수면 h에서 시작작
+else: # 홀수면 h에서 시작
     y = h - (q + t) % h
 
 print(x, y)
-
-
-#(참고: https://velog.io/@ice-prince/%EB%B0%B1%EC%A4%80-10158-%EA%B0%9C%EB%AF%B8-Python)
