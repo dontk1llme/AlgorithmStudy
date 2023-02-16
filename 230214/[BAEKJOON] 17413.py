@@ -26,3 +26,4 @@ while idx < len(s):
 
 
 
+#뒤집기 False/True 해서 설정해줘도 되네요... 성우님 코드 참고!!
