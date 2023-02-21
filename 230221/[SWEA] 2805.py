@@ -3,7 +3,7 @@
 T = int(input())
 for tc in range(1, T+1):
     N = int(input())
-    lst = [list(map(int, input())) for _ in range(N)]
+    lst = list(map(int, input().split()))
 
     ans = 0
     start, end = N//2,N//2
