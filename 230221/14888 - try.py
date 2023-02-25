@@ -39,7 +39,7 @@ def dfs(i,arr):
             div += 1
 dfs(1,A[0])
 print(max_)
-print(min_)
+print(min_) 
 
 #/////////////////////////////////////////////////////////////////
 n = int(input())
