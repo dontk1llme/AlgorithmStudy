@@ -1,7 +1,7 @@
 # 2206 벽 부수고 이동하기
 # 하나 부숴도됨. 최단거리 출력. 불가능이면 -1
 # 엥 3차원배열 쓰라고요?........ 뭔.. 뭔소링미
-# https://hongcoding.tistory.com/18
+# https://hongcoding.tistory.com/18 
 
 from collections import deque
 
