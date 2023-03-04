@@ -27,4 +27,4 @@ lst = [list(map(int, input())) for _ in range(N)]
 r,c=1,1
 visited = [[0]*M for _ in range(N)]
 visited[r][c]=1
-bfs(r,c,N,M)
+bfs(r,c,N,M) 
