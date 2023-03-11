@@ -2,7 +2,7 @@
 # https://velog.io/@hygge/Python-%EB%B0%B1%EC%A4%80-1913-%EB%8B%AC%ED%8C%BD%EC%9D%B4-Brute-Force
 # https://simsim231.tistory.com/m/179
 
-
+ 
 N = int(input()) #홀수인 자연수
 M = int(input()) #위치를 찾고자 하는 N2 이하의 자연수
 
