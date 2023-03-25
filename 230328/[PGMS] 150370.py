@@ -48,3 +48,4 @@ def solution(today, terms, privacies):
 
 print(solution(today, terms, privacies))
 
+ 
