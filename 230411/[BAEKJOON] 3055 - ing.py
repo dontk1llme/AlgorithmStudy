@@ -28,4 +28,4 @@ bfs(x,y)
 if ans==0:
     print("KAKTUS")
 else:
-    print(ans)
+    print(ans) 
