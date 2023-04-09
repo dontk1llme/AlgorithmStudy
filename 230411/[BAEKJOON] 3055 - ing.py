@@ -29,3 +29,4 @@ if ans==0:
     print("KAKTUS")
 else:
     print(ans) 
+ 
