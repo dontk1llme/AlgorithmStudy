@@ -1,4 +1,4 @@
-# boj 1149
+# boj 1149 RGB거리
 # 너무 어렵게 생각하지 않기... https://namhandong.tistory.com/131
 # 현재 집에서 각각 색을 칠했을 때의 가장 적은 비용을 저장해서 재사용하는 것을 중점으로!
 # ㄴ https://myjamong.tistory.com/309
