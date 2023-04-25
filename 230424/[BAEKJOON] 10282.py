@@ -6,12 +6,38 @@
 
 # a,b,s 입력 시 a가 b를 의존한다는 표현; b->a
 
+from heapq import heappush, heappop
+import sys
+input = sys.stdin.readline
+inf = 100000000
+def dijkstra(start): #최단 시간 구하기
+    heap = []
+    heappush(heap, [0, start])
+    dp = [inf for i in range(n + 1)]
+    dp[start] = 0
+    while heap:
+        we, nu = heappop(heap)
+        for ne, nw in lst[nu]:
+            wei = we + nw
+            if dp[ne] > wei:
+                dp[ne] = wei
+                heappush(heap, [wei, ne])
+    return dp
 
 T = int(input())
 for tc in range(1, T+1):
-    n, d, c = map(int,input().split())
-    lst = [list(map(int, input().split())) for _ in range(d)]
-    ans = [0,0] # 감염되는 컴터 수, 마지막 컴터가 감염되기까지 걸리는 시간
-
-
-    print(*ans)
+    n, d, start = map(int,input().split())
+    lst = [[] for i in range(n + 1)]
+    for i in range(d): #그래프 생성
+        a, b, c = map(int, input().split())
+        lst[b].append([a, c])
+    dp = dijkstra(start) #시작점에서 다익스트라 진행
+    max_dp = 0
+    cnt = 0
+    # print(dp)
+    for i in dp:
+        if i != inf: #시간 중 가장 큰 값과 컴터 개수 출력
+            if max_dp < i:
+                max_dp = i
+            cnt += 1
+    print(cnt, max_dp)
